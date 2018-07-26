@@ -12,3 +12,264 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+
+
+.container-fluid padding{
+width:40%;
+}                                                                                                                                                                                                                                                                                        
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.btn {
+    color: rgb(93, 2, 2);
+    background: linear-gradient(90deg, var(--a1, #FFEDBC), var(--c2, #FFAFBD) 51%, var(--a1, #FFEDBC)) var(--x, 0)/200%;
+    box-shadow: 0 0 20px #eee;
+    border: 0;
+    border-radius: 10px;
+    flex: 1 1 auto;
+    font-weight: bold;
+    margin: 20px;
+    padding: 30px;
+    transition: 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.btn-3 {
+    --a1: #E0FFFF;
+    --c2: #64b3f4;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    }
+
+p{
+text-align: center;
+list-style-position: inside;
+}
+
+.jumbotron{
+background-color: rgb(253, 253, 253);
+}
+
+textcenter{
+text-align: center;
+list-style-position: inside;
+}
+
+body {
+    background-color:rgb(118, 131, 190);
+}
+
+.center {
+    text-align:center;
+    width:50%;
+    display:block;
+    margin:auto;
+    }
+
+
+.hi{
+    background-color: rgb(49, 0, 0)
+}
+h2{
+    color:black
+}
+
+.green{
+    background-color:green !important;
+    background: linear-gradient(90deg, var(--a1, rgb(188, 255, 194)), var(--c2, rgb(175, 255, 251)) 51%, var(--a1, rgb(188,255,194))) var(--x, 0)/200%;
+}
+
+.left{
+    text-align:left;
+}
+
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+.aye{
+    background-color: rgb(49, 0, 0) !important;
+}
+
+.navbar-text{
+z-index: 1;
+margin: auto;
+left:0;
+right: 0;
+position: absolute;
+}
+.navbar-nav{
+    z-index: 1;
+    color:white 
+}
+.navbar-dark{
+    color:white;
+    background-color:rgb(29, 29, 138);
+}
+.blue{
+    color:white;
+    background-color:rgb(29, 29, 138);
+}
+@media(max-width: 1200px){
+    .navbar-text{
+        display: none;
+
+    }
+}
+
+.card-text{
+    color:black;
+}
+.jumbotron{
+    background-color:rgb(28, 28, 122);
+    color:white;
+    padding-top: 10x;
+    padding-bottom: 20px;
+
+}
+.navbar-text{
+    color:white
+}
+
+
+.display-4{
+    color:white
+}
+.navbar{
+    background-color:rgb(19, 17, 134);
+    color:white
+}
+
+#locator{ position: absolute; visibility: visible; left: 100px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator1{ position: absolute; visibility: visible; left: 700px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator2{ position: absolute; visibility: visible; left: 1300px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator3{ position: absolute; visibility: visible; left: 100px; top: 900px; height: 100px; width: 450px; z-index: 200; }
+
+#locator4{ position: absolute; visibility: visible; left: 700px; top: 900px; height: 100px; width: 450px; z-index: 200; }
+
+#locator5{ position: absolute; visibility: visible; left: 1300px; top: 900px; height: 100px; width: 450px; z-index: 200; }
+
+#locator6{ position: absolute; visibility: visible; left: 100px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator7{ position: absolute; visibility: visible; left: 700px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator8{ position: absolute; visibility: visible; left: 1300px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
+
+#hi {position:absolute; visibility: visible; left: 200px; }
+
+
+
+#ticket{ position: absolute; visibility: visible; left: 100px; top: 1230px; height: 100px; width: 450px; z-index: 200;}
+
+
+@font-face {
+    font-family: Grobold;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
+
+
+
+
+#ticketdefault{ position: absolute; visibility: visible; left: 100px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket1tier{ position: absolute; visibility: visible; left: 700px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket2tier{ position: absolute; visibility: visible; left: 1300px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket3tier{ position: absolute; visibility: visible; left: 100px; top: 1160px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket4tier{ position: absolute; visibility: visible; left: 700px; top: 1200px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket5tier{ position: absolute; visibility: visible; left: 1300px; top: 1200px; height: 100px; width: 450px; z-index: 200; }
+
+#prestige{ position: absolute; visibility: visible; left: 700px; top: 1850px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket1{ position: absolute; visibility: visible; left: 100px; top: 450px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket2{ position: absolute; visibility: visible; left: 700px; top: 480px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket3{ position: absolute; visibility: visible; left: 1300px; top: 480px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket4{ position: absolute; visibility: visible; left: 700px; top: 1300px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket5{ position: absolute; visibility: visible; left: 600px; top: -25px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket6{ position: absolute; visibility: visible; left: -600px; top: 700px; height: 100px; width: 450px; z-index: 200; }
+
+
+
+#p1{ position: absolute; visibility: visible; left: -600px; top: -1200px; height: 100px; width: 450px; z-index: 200; }
+
+#p2{ position: absolute; visibility: visible; left: 0px; top: -950px; height: 100px; width: 450px; z-index: 200; }
+
+#p3{ position: absolute; visibility: visible; left: 600px; top: -1150px; height: 100px; width: 450px; z-index: 200; }
+
+#p4{ position: absolute; visibility: visible; left: -600px; top: -350px; height: 100px; width: 450px; z-index: 200; }
+
+#p5{ position: absolute; visibility: visible; left: 0px; top: -350px; height: 100px; width: 450px; z-index: 200; }
+
+#p6{ position: absolute; visibility: visible; left: 600px; top: -200px; height: 100px; width: 450px; z-index: 200; }
+
+#p7{ position: absolute; visibility: visible; left: 0px; top: 350px; height: 100px; width: 450px; z-index: 200; }
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
