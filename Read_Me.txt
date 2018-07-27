@@ -1,6 +1,6 @@
 Index:Wesley, William, Michael(mostly), Jose
 Events: Wesley(all event pages) 
-About: Jose
+About: Michael
 Contact info stuff: Michael
 Rides: William, Wesley
 CSS:anyone who needs to use it
@@ -12,7 +12,7 @@ images:Wesley, William
 
 Wesley: Events(and all event pages) images, rides main mage, rules page
 Michael: Contact Info, Index, About
-About: Jose
+Jose: Pressing buttons and looking at gmail
 William: Extreme and easy Rides pages & Tickets, images(some)
 
 

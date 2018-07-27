@@ -8,7 +8,7 @@
 	<title>AmuseMe Tickets</title>
 	 
   </head>
-  <body style="background-color:white"	>
+  <body style="background-color:white"	><font face="Grobold">
 	
 	
 	
@@ -42,51 +42,65 @@
 				<li class="nav-item">
 					<a class="nav-link" href="Contact.html">Contact Us</a>
 				</li>
+				<li class="nav-item">
+				    <button class="btn btn-sm	"><a class="nav-link" href="Tickets.html">Buy Tickets</a>	
+
+
+				</li>
 			</ul>
 		</div>
 	</nav>
 
-<!--Modal-->
 
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="modal">Purchase Tickets</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <p>How many tickets today?</p>
+	  <div>
+	
+			<form action="/action_page.php">
+				Number of Tickets:<br>
+				<input type="text" name="People" value="">
+				<br>
+				Number of Tickets you wish to purchase and tier type (e.g. 1 VIP+, 2 MVPs):<br>
+				<input type="text" name="Tickets" value="">
+				<br><br>
+			</form> 
+				<a href="scam.html"><input type="submit" value="Submit" ></a>
+			  
+	
+	  </div>
+	</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" >close</button>
+      </div>
+    </div>
+
   </div>
-
 </div>
 
 
-<!-- Modal content -->
-<div class="modal-content">
-		<div class="modal-header">
-		  <span class="close">&times;</span>
-		  <h2>Modal Header</h2>
-		</div>
-		<div class="modal-body">
-		  <p>Some text in the Modal Body</p>
-		  <p>Some other text...</p>
-		</div>
-		<div class="modal-footer">
-		  <h3>Modal Footer</h3>
-		</div>
-	  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
-<!--/Modal-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 <div>
@@ -96,100 +110,114 @@
     <h1>Tickets and Memberships/Perks</h1>
 	</div>
 </div>
+</div>
 <br>
 <br>
 <div class="mx-auto">
 		<h4>*Please note that tickets that give perks are permanent, and higher tier tickets get all of the perks of the tickets from lower tiers.*</h4>
 		</div>
-	</div>
+	<br>
+<br>	
 		<br>
 <br>
-<div>
 
-<div id= "ticketdefault"><h4>Standard admission: $19.99</h4></div>
+<div class="card">
 
-
-<div id= "ticket1tier"><h4>Discount Ticket: $29.99 (Unlocks perk: 35% discount in gift shop)</h4></div>
-
-
-<div id= "ticket2tier"><h4>VIP Ticket: $24.99 (Unlocks perk: access to "Hidden" food menu)</h4></div>
-
-
-<div id="ticket3tier"><h4>VIP+ Ticket: $34.99 (Unlocks perk: access to priority line)</h4></div>
-
-
-	<div id="ticket4tier"><h4>MVP Ticket: $54.99 (Unlocks perk: free food from street vendors)</h4></div>
-
-
-<div id="ticket5tier">	<h4>MVP+ Ticket: $64.99 (Unlocks perk: "Behind The Scenes" tour)</h4></div>
-
-
-		<div id="prestige"><h4>MVP++ Ticket: $79.99 (Unlocks perk: <a href= "Extreme Rides.html">Helicopter Ride</a> and a chance to enter into a giveaway for exclusive prizes)</h4> 
-		
-		</div>    
-
-
-<div id="ticket">
-<img class="card-img-top" src="img/Tickets img/Golden Ticket.jpg" alt="ticket">
+	<div class="same-line">
+<div class="ticket1 same-line">
+	<img src="img/Tickets img/Standard Ticket.jpg" alt="Avatar1" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>Standard admission: $19.99</b></h4> 
+	  <p class="same-line">Just a normal ticket, nothing special about it. Good deal if you only plan to play there once a year or rarely.</p> 
+	</div>
+  </div>
 </div>
 
-<div id="ticket1">
-<img class="card-img-top" src="img/Tickets img/Standard Ticket.jpg" alt="ticket1">
-</div>
-
-<div id="ticket2">
-<img class="card-img-top" src="img/Tickets img/bronze ticket.png" alt="ticket2">
-</div>
-
-<div id="ticket3">
-<img class="card-img-top" src="img/Tickets img/Silver ticket.jpg" alt="ticket3">
-</div>
-
-<div id="ticket4">
-<img class="card-img-top" src="https://bpsh2.hs.llnwd.net/e1/echo-cdn-origin/content/nordicbet/sites/3/2017/06/Platinum_Ticket.png" alt="ticket4">
-
-<div id="ticket5">
-<img class="card-img-top" src="https://titaniumsuccess.com/wp-content/uploads/2015/02/VIP-Experience-Product-Image-TS-600x600.jpg" alt="ticket5">	
-
-<div id="ticket6">
-<img class="card-img-top" src="http://aneildiamondtribute.com/wp-content/uploads/2012/01/diamondtickets.png" alt="ticket6">
-
-
-<div id="p1">
-<h4>Just a normal ticket, nothing special about it. Good deal if you only plan to play there once a year or rarely.</h4>
-</div>
-
-<div id="p2">
-<h4>Discounted tickets are good if you are planning to purchase items there.</h4>
-</div>
-
-<div id="p3">
-<h4>Craving something new to eat? Check out our hidden menu! Our hidden menu, operated by 5-star chefs, are real gourmet!</h4>
-</div>
-
-<div id="p4">
-<h4>Tired of waiting in line? Come to the priority line! In the priority line, you can skip everyone else! *Please note that this ability can only last a day and that you can purchase the perk again for only 5.00$</h4>
-</div>
-
-<div id="p5">
-<h4>Craving a quick snack? You've come to the right place!</h4>
-</div>
-
-<div id="p6">
-<h4>Take a tour to see how things are operated. You'll feel like a know-it-all after this!</h4>
-</div>
+<br>
+<br>
 <br>
 
-<div id="p7">
-<h4>Going to the extreme, are we? Take a breathtaking aerial trip! And, if you dare, we have some sky-diving specialists.</h4>
+  <div class="ticket2 same-line">
+	<img src="img/Tickets img/bronze ticket.png" alt="Avatar2" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>Discount Ticket: $29.99 (Unlocks perk: 35% discount in gift shop)</b></h4> 
+	  <p class="same-line">Discounted tickets are good if you are planning to purchase items there.</p> 
+	</div>
+  </div>
+<br>
+<br>
+<br>
+
+  <div class="ticket3 same-line">
+	<img src="img/Tickets img/Silver ticket.jpg" alt="Avatar3" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>VIP Ticket: $24.99 (Unlocks perk: access to "Hidden" food menu)</b></h4> 
+	  <p class="same-line">Craving something new to eat? Check out our hidden menu! Our hidden menu, operated by 5-star chefs, are real gourmet!</p> 
+	</div>
+  </div>
+<br>
+<br>
+<br>
+
+  <div class="ticket4 same-line">
+	<img src="img/Tickets img/Golden Ticket.jpg" alt="Avatar4" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>VIP+ Ticket: $34.99 (Unlocks perk: access to priority line)</b></h4> 
+	  <p class="same-line">Tired of waiting in line? Come to the priority line! In the priority line, you can skip everyone else! *Please note that this ability can only last a day and that you can purchase the perk again for only 5.00$</p> 
+	</div>
+  </div>
+<br>
+<br>
+<br>
+
+  <div class="ticket5 same-line">
+	<img src="img/Tickets img/Platinum Ticket.png" alt="Avatar5" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>MVP Ticket: $54.99 (Unlocks perk: free food from street vendors)</b></h4> 
+	  <p class="same-line">Craving a quick snack? You've come to the right place!</p> 
+	</div>
+  </div>
+<br>
+<br>
+<br>
+
+  <div class="ticket6 same-line">
+	<img src="img/Tickets img/MVP+ Ticket.jpg" alt="Avatar6" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>MVP+ Ticket: $64.99 (Unlocks perk: "Behind The Scenes" tour)</b></h4> 
+ 	  <p class="same-line">Take a tour to see how things are operated. You'll feel like a know-it-all after this!</p> 
+	</div>
+  </div>
+<br>
+<br>
+<br>
+
+  <div class="ticket7 same-line">
+	<img src="img/tickets img/MVP++ ticket.png" alt="Avatar7" style="width:10%">
+	<div class="container same-line">
+	  <h4 class="same-line"><b>MVP++ Ticket: $79.99 (Unlocks perk: <a href= "Extreme Rides.html">Helicopter Ride</a> and a chance to enter into a giveaway for exclusive prizes)</b></h4> 
+	  <p class="same-line">Going to the extreme, are we? Take a breathtaking aerial trip! And, if you dare, we have some sky-diving specialists.</p> 
+	</div>
+  </div>
+
 </div>
+</div>
+
+
+
 
 </div>
 </div>
 </div>
-<!--Cards and Special Tickets/Perks-->
 
-
+<div class="text-center">
+		<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+		</div>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</font face>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
